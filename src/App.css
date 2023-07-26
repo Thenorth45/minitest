@@ -1,7 +1,7 @@
 .App {
   background-image: url("flower.gif");
   background-repeat: repeat;
-  background-color: #dcade7;
+  background-color: #1246a5;
   text-transform: uppercase;
   text-align: center;
 }
@@ -95,17 +95,18 @@ footer {
   color: white;
 }
 .button3 {
-  background-color: white; 
+  background-color: rgb(216, 148, 148); 
   color: black; 
-  border: 2px solid #f44336;
+  border: 3px solid #ff0000;
+  border-radius: 30%;
 }
 
 .button3:hover {
-  color: #fff;
-  text-shadow: 0 0 5px #03e9f4,
-              0 0 25px #03e9f4,
-              0 0 50px #03e9f4,
-              0 0 100px #03e9f4;
+  color: #000000;
+  text-shadow: 0 0 5px #f40303,
+              0 0 25px #f40303,
+              0 0 50px #f40303,
+              0 0 100px #f40303;
   /* background-color: #f44336;
   color: white; */
 }
